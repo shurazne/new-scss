@@ -1,0 +1,138 @@
+$fonts: (
+  'norwesterregular': (
+    'woff2': '../fonts/norwester-webfont.woff2',
+    'woff': '../fonts/norwester-webfont.woff',
+  )
+);
+
+$fa-font-path: '../fonts';
+
+// Common
+$main-font: 'Lato', sans-serif;
+$secondary-font: 'norwesterregular', sans-serif;
+
+// Text Colors
+$text-gray: #a6a6a6;
+$text-blue: #435566;
+$text-white: #fff;
+$text-dark-gray: #666;
+$text-green: #a3d900;
+
+
+
+// Bg Colors
+$bg-blue: #658099;
+$bg-green: #9c0;
+$bg-white: #fff;
+$bg-light-gray: #f8fafc;
+$bg-dark-blue: #304152;
+
+$html-font-size: 10px;
+$body-font-color: $text-gray;
+$body-font: $main-font;
+$body-fz: 1rem;
+$body-fw: 400;
+$body-lh: 1;
+
+
+// Grid
+$container-width: 1200px;
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+$grid-breakpoints: (
+  xl:1199px,
+  lg:991px,
+  md:767px,
+  sm:575px
+);
+
+$container-max-width: (
+  xl:960px,
+  lg:720px,
+  md:540px,
+  sm:100%
+);
+
+$displays: none, inline-block, block, flex;
+
+// Titles
+$title-h1-fz: 7rem;
+$title-h2-fz: 6rem;
+$title-h3-fz: 5rem;
+$title-h4-fz: 3rem;
+$title-h5-fz: 2.5rem;
+$title-h6-fz: 2.2rem;
+
+$title-color: $text-blue;
+$title-ff: $secondary-font;
+
+$title-sizes: (
+  h1: $title-h1-fz,
+  h2: $title-h2-fz,
+  h3: $title-h3-fz,
+  h4: $title-h4-fz,
+  h5: $title-h5-fz,
+  h6: $title-h6-fz,
+);
+
+// Padding-left
+$Padding-left-1: 10px;
+$Padding-left-2: 20px;
+$Padding-left-3: 30px;
+$Padding-left-4: 40px;
+$Padding-left-5: 50px;
+$Padding-left-6: 60px;
+$Padding-left-7: 70px;
+$Padding-left-8: 80px;
+$Padding-left-9: 90px;
+
+$Paddings-left: (
+  left-1: $Padding-left-1,
+  left-2: $Padding-left-2,
+  left-3: $Padding-left-3,
+  left-4: $Padding-left-4,
+  left-5: $Padding-left-5,
+  left-6: $Padding-left-6,
+  left-7: $Padding-left-7,
+  left-8: $Padding-left-8,
+  left-9: $Padding-left-9,
+);
+
+
+// Articles
+$artitle-color: $text-gray;
+$article-ff: $main-font;
+
+$article-fz-sm: 1.6rem;
+$article-fz-md: 1.8rem;
+$article-fz-lg: 2rem;
+
+$article-sizes: (
+  sm: $article-fz-sm,
+  md: $article-fz-md,
+  lg: $article-fz-lg,
+);
+
+//Blockquote
+$blockquote-bg: $bg-blue;
+$blockquote-arrow-color: #596f86;
+$blockquote-color: $text-white;
+$blockquote-author-color: #cfdae5;
+$blockquote-text-ff: $main-font;
+$blockquote-author-ff: $secondary-font;
+
+$blockquote-text-fz-lg: 2rem;
+$blockquote-author-fz-lg: 1.8rem;
+$blockquote-text-fz-sm: 1.8rem;
+$blockquote-author-fz-sm: 1.5rem;
+
+// tabte
+$title-bg: #f0f3f5;
+$title-fz: 1.6rem;
+
+// Footer
+$footer-bg: $bg-dark-blue;
+
+
+

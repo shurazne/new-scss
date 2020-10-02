@@ -1,0 +1,30 @@
+.guide-section {
+  border-bottom: 2px solid #ededed;
+  padding: 65px 0;
+}
+
+.article {
+  &__wrap {
+    margin-top: 45px;
+    max-width: 675px;
+  }
+
+  &__span {
+    &-wrap {
+      padding-left: 40px;
+    }
+    
+    &-bg {
+      background-color: $bg-light-gray;
+      border: 2px solid #edf1f5;
+      padding: 0 5px;
+    }
+
+    &-ff {
+      font-family: $secondary-font;
+      font-size: $article-fz-md;
+      font-weight: normal;
+      line-height: 1.55;
+    }
+  }
+}

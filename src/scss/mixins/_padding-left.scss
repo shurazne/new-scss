@@ -1,0 +1,11 @@
+@mixin make-padding(
+  $paddings: $Paddings-left
+) {  
+  .padding {
+    @each $name, $value in $Paddings-left {
+      &-#{$name} {
+        padding-left: $value;
+      }
+    } 
+  }
+}
