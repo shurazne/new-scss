@@ -20,12 +20,14 @@ $text-green: #a3d900;
 
 
 
+
 // Bg Colors
 $bg-blue: #658099;
 $bg-green: #9c0;
 $bg-white: #fff;
 $bg-light-gray: #f8fafc;
 $bg-dark-blue: #304152;
+$bg-brown: #333;
 
 $html-font-size: 10px;
 $body-font-color: $text-gray;
@@ -133,6 +135,46 @@ $title-fz: 1.6rem;
 
 // Footer
 $footer-bg: $bg-dark-blue;
+
+// buttons
+$btn-ff: $secondary-font;
+$btn-fz-lg: 2.5rem;
+$btn-padding-lg: 14px 40px;
+$btn-fz-sm: 1.8rem;
+$btn-padding-lg: 12px 30px;
+$btn-text-color: #fff;
+$btn-default-bg: #658099;
+$btn-default-bg-hover: #9c0;
+$btn-secondary-bg: #435566;
+$btn-secondary-bg-hover: #9c0;
+$btn-primary-bg: #9c0;
+$btn-primary-bg-hover: #7ca600;
+$btn-disabled-bg: #cbced2;
+$btn-default-border: #546b80;
+$btn-secondary-border: #2e3c4a;
+$bt-primary-border: #7ca600;
+$btn-disabled-border: #adafb3;
+$btn-ghost-color: $text-white;
+$btn-ghost-border-color-white: #fff;
+$btn-ghost-border-color-green: #9c0;
+$btn-ghost-border-text-color-green: #9c0;
+$btn-ghost-border-color-grey: #dfe2e6;
+$btn-bg-windows-icon: #00aced;
+$btn-bg-google-icon: #1a9bab;
+$btn-bg-windows-text: #0bf;
+$btn-bg-google-text: #1dafc2;
+
+
+
+
+
+
+$btn-bgs: (
+  default: $btn-default-bg, 
+  secondary: $btn-secondary-bg,
+  primary: $btn-primary-bg,
+  disabled: $btn-disabled-bg,
+);
 
 
 

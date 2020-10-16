@@ -8,6 +8,7 @@
 @import 'title';
 @import 'articles';
 @import 'padding-left';
+@import 'buttons';
 
 
 @include generate-font-face($fonts);

@@ -1,0 +1,44 @@
+.tabs {
+  &-input {
+    display: none;
+    
+    &:checked + .tabs-label {
+      & .tabs-label__wrap-text {
+        color: #658099;
+      }
+
+      & .tabs-label__wrap-logo {
+        // background-image: url(../images/settings-icons.png) ;
+        background-color: $bg-blue;
+        border-radius: 25px;
+       
+      }
+    }
+  }
+    
+  &-label {
+    cursor: pointer;
+    display: block;
+    position: relative;
+
+    // &:hover {
+    //   border: 5px double blue;
+    //   color: blue;
+    // }
+
+    
+    &__wrap {
+      &-text {
+        color: #cbced2;
+        font-family: $secondary-font;
+        font-size: 2.6rem;
+        margin-left: 20px;
+        text-transform: uppercase;
+      }    
+    }
+  }
+} 
+
+
+
+

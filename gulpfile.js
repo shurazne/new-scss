@@ -38,12 +38,12 @@ function generateSprite() {
   return merge(imgStream, cssStream);
 }
 
-function fontFontAwesome() {
+function fontsFontAwesome() {
   return src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
   .pipe (dest ('dist/fonts'))
 }
 
-task ('getFontAwesome', fontFontAwesome);
+task ('getFontAwesome', fontsFontAwesome);
 
 task('watch', () => {
   scss();

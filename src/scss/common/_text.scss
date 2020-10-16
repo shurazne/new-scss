@@ -1,3 +1,8 @@
 @include make-titles ();
 @include make-articles ();
 @include make-padding ();
+
+.title-white {
+  color: $text-white;
+}
+

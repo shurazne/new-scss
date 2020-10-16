@@ -1,0 +1,116 @@
+.product-item {
+  background-color: #f0f3f7;
+
+  &__img {
+    height: 285px;
+    overflow: hidden;
+    position: relative;
+    
+
+    &-source {
+      height: 100%;
+      max-width: none;
+    }
+  }
+
+  &__type {
+    color: $text-white;
+    font-family: $secondary-font;
+    font-size: 1.5rem;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+  }
+
+  &__equipment {
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+
+    &-item {
+      & + & {
+        margin-left: 25px;
+      }
+    }
+  }
+
+  &__name {
+    background-color: $bg-blue;
+    padding: 30px 20px;
+    position: relative;
+
+    &::after {
+      border: 25px solid transparent;
+      border-right-color: $bg-blue;
+      content: '';
+      height: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transform: translateY(-50%) translateX(0);
+      width: 0;
+        
+    }
+
+    &-title {
+      color: $text-white;
+      font-family: $secondary-font;
+      font-size: 2.5rem;
+      font-weight: normal;          
+    }
+  }
+
+  &__details {
+    border: 2px solid #f0f3f7;
+
+    &:hover {
+      border-color: $bg-blue;
+    }
+  }
+    
+  &-item {
+    padding: 25px 20px;
+  }
+
+  &__price {
+    background-color: #f0f3f7;
+        
+
+    &-item {
+      padding: 25px 20px;
+
+      &:nth-child(odd) {
+        background-color: $bg-white;
+      }
+    } 
+
+    &-time {
+      font-family: $main-font;
+      font-size: 1.5rem;
+      font-weight: 400;
+    
+    }
+
+    &-value {
+      font-family: $main-font;
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+  }
+
+  &__action {
+    background-color: #f0f3f7;
+    padding: 30px 0; 
+
+  }
+
+  &__details {
+    border: 2px solid #f0f3f7;
+
+    &:hover {
+      background-color: $bg-blue;
+    }
+  }
+}
+  
+
